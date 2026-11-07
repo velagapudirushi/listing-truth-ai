@@ -1,12 +1,14 @@
 # 🔍 ListingTruth AI: Multimodal Rental "BS & Hidden Gem" Detector
 
-[![Deploy to Streamlit Cloud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?owner=velagapudirushi&repo=listing-truth-ai&branch=main&mainModule=app/streamlit_app.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://listing-truth-ai.streamlit.app/)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![OpenAI CLIP](https://img.shields.io/badge/Vision-OpenAI%20CLIP%20ViT--B%2F32-6366f1.svg)](https://huggingface.co/openai/clip-vit-base-patch32)
 [![DuckDB SQL](https://img.shields.io/badge/SQL-DuckDB%202.0-FFF000.svg)](https://duckdb.org/)
 [![LightGBM + TreeSHAP](https://img.shields.io/badge/ML-LightGBM%20%2B%20TreeSHAP-10b981.svg)](https://lightgbm.readthedocs.io/)
 [![100% Real Data](https://img.shields.io/badge/Data-100%25%20Real%20InsideAirbnb-ff5a5f.svg)](https://insideairbnb.com/get-the-data/)
 [![Tests: 8 Passing](https://img.shields.io/badge/pytest-8%20passed-brightgreen.svg)](tests/)
+
+🚀 **Live Interactive Dashboard:** [**https://listing-truth-ai.streamlit.app/**](https://listing-truth-ai.streamlit.app/) *(Test Natural-Language OpenAI `CLIP` Photo Search, Catfish vs. Hidden Gem Galleries, `TreeSHAP` Fair-Price Auditor, 3-Stage Ablation & live `DuckDB` SQL Playground directly in your browser)*
 
 **ListingTruth AI** is an end-to-end **Multimodal Data Science & Computer Vision Valuation System** built on **100% real San Francisco `InsideAirbnb` listings and real room photographs** (`900` verified listings, **zero synthetic rows**).
 
