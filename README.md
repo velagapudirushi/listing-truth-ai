@@ -19,7 +19,7 @@ Rental and Airbnb hosts routinely stuff descriptions with breathless marketing b
 
 ---
 
-## 🐐 Explain It So Simple Even a Goat Can Understand It
+## simple understanding
 
 Imagine two people trying to rent you a bedroom for **`$220/night`**:
 
