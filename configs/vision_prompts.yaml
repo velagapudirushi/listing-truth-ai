@@ -1,0 +1,32 @@
+city_name: "San Francisco"
+insideairbnb_city_slug: "united-states/ca/san-francisco"
+clip_model_id: "openai/clip-vit-base-patch32"
+sample_size_listings: 900
+
+contrastive_axes:
+  vis_brightness:
+    positive: "an interior real estate photo of a bright sunlit room filled with natural daylight and large windows"
+    negative: "an interior real estate photo of a dark dim shadowy windowless room with poor lighting"
+  vis_spaciousness:
+    positive: "an interior real estate photo of a spacious wide open airy living room or bedroom with generous floor space"
+    negative: "an interior real estate photo of a tiny cramped narrow crowded room with tight space"
+  vis_luxury_finish:
+    positive: "an interior real estate photo of a modern renovated luxury designer apartment with upscale finishes"
+    negative: "an interior real estate photo of an outdated worn old budget room with cheap worn furnishings"
+  vis_cleanliness:
+    positive: "an interior real estate photo of a spotless tidy minimalist hotel-quality room"
+    negative: "an interior real estate photo of a cluttered messy disorganized room with visible clutter"
+
+visual_search_queries:
+  - "bright sunlit minimalist white bedroom with large windows"
+  - "luxury modern renovated designer living room"
+  - "cozy warm wooden interior with plants and books"
+  - "dark cramped tiny room with dim lighting"
+  - "cluttered messy room with too much furniture"
+  - "outdated old carpet and vintage worn furniture"
+  - "panoramic city view from apartment window"
+  - "sleek modern marble kitchen with island"
+  - "compact studio bed right next to kitchenette"
+  - "charming Victorian bay window living space"
+  - "outdoor patio garden deck with seating"
+  - "hotel style crisp white bed and minimalist decor"

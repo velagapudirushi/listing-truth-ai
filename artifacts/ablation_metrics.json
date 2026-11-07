@@ -1,0 +1,52 @@
+{
+  "dataset_listings": 900,
+  "stage_1_tabular_only": {
+    "log_r2": 0.4309,
+    "log_rmse": 0.614,
+    "usd_mae": 189.26
+  },
+  "stage_2_tabular_plus_text": {
+    "log_r2": 0.4149,
+    "log_rmse": 0.6226,
+    "usd_mae": 193.55
+  },
+  "stage_3_full_multimodal_clip": {
+    "log_r2": 0.4799,
+    "log_rmse": 0.587,
+    "usd_mae": 182.64
+  },
+  "multimodal_r2_gain_over_tabular": 0.049,
+  "multimodal_mae_dollar_improvement": 6.62,
+  "top_6_shap_drivers": [
+    {
+      "feature": "accommodates",
+      "label": "Max Guests Accommodated",
+      "mean_abs_shap": 0.2547648657706744
+    },
+    {
+      "feature": "clip_svd_4",
+      "label": "CLIP Embedding Visual Component #4",
+      "mean_abs_shap": 0.14925756553467462
+    },
+    {
+      "feature": "latitude",
+      "label": "Latitude (Micro-Location)",
+      "mean_abs_shap": 0.08183333481433266
+    },
+    {
+      "feature": "neighbourhood",
+      "label": "Neighborhood",
+      "mean_abs_shap": 0.06973470148087599
+    },
+    {
+      "feature": "clip_svd_3",
+      "label": "CLIP Embedding Visual Component #3",
+      "mean_abs_shap": 0.05451542114733525
+    },
+    {
+      "feature": "bathrooms",
+      "label": "Bathrooms",
+      "mean_abs_shap": 0.049305750279296935
+    }
+  ]
+}
